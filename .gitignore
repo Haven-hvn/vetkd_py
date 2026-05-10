@@ -1,0 +1,44 @@
+# Rust / Cargo
+/target/
+**/*.rs.bk
+
+# Maturin / Python packaging (wheel output lives under target/wheels when using default layout)
+/wheels/
+
+# Python
+__pycache__/
+*.py[cod]
+*$py.class
+*.so
+.Python
+.venv/
+venv/
+ENV/
+env/
+.mypy_cache/
+.pytest_cache/
+.ruff_cache/
+.tox/
+.nox/
+*.egg-info/
+.eggs/
+dist/
+build/
+pip-wheel-metadata/
+
+# Coverage / tooling
+.coverage
+coverage.xml
+htmlcov/
+*.cover
+.hypothesis/
+
+# IDE / editors
+.idea/
+*.swp
+*.swo
+*~
+
+# OS
+.DS_Store
+Thumbs.db
