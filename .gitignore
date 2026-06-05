@@ -4,6 +4,7 @@
 
 # Maturin / Python packaging (wheel output lives under target/wheels when using default layout)
 /wheels/
+target/
 
 # Python
 __pycache__/
@@ -25,6 +26,7 @@ env/
 dist/
 build/
 pip-wheel-metadata/
+
 
 # Coverage / tooling
 .coverage
