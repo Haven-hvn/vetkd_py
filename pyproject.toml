@@ -9,6 +9,7 @@ description = "VetKD transport-key unwrap and IBE decrypt for Haven-AOL"
 requires-python = ">=3.10"
 license = "MIT"
 readme = "README.md"
+authors = [{"HavenCTO", "Apha205"}]
 classifiers = [
     "Programming Language :: Rust",
     "Programming Language :: Python :: Implementation :: CPython",
@@ -17,6 +18,10 @@ classifiers = [
     "Intended Audience :: Developers",
     "Topic :: Security :: Cryptography",
 ]
+
+[project.urls]
+Homepage = "https://github.com/Haven-hvn
+Repository = "https://github.com/Haven-hvn/vetkd_py
 
 [tool.maturin]
 features = ["pyo3/extension-module"]
